@@ -9,6 +9,13 @@ img {
   right:0;
   top:0;
 }
+.shadowbox{
+	width: 15em;
+  border: 1px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;
+  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+}
 </style>
 <title>
 My Courses and Topics
@@ -16,7 +23,8 @@ My Courses and Topics
 </head>
 <body>
 <h1>My Courses and Topics</h1>
-<ol>
+
+	<div class="shadowbox">
 <li>Java Full Stack Developer
 <ul>
 <li>Core Java</li>
@@ -26,6 +34,8 @@ My Courses and Topics
 <li>MVC</li>
 </ul>
 </li>
+</div><br>
+<div class="shadowbox">
 <li>Spring-boot
 <ul><li>Core Java</li>
 <li>JSON</li>
@@ -33,13 +43,16 @@ My Courses and Topics
 <li>Controllers & Mappings</li>
 </ul>
 </li>
+</div><br>
+<div class="shadowbox">
 <li>Salesforce
 <ul><li>Objects</li>
 <li>Fields</li>
 <li>Dependencies</li>
 </ul>
 </li>
-</ol>
+</div>
+
 <div><img src="ironmanend.png" alt="Ironman"></div>
 </body>
 
