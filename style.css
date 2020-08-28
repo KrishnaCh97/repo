@@ -36,14 +36,7 @@ a{
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
-img { 
-  width: 180px;
-  height: 180px;
-  position: absolute;
-  right:0;
-  top:0;
-  border-style: solid;
-}
+
 .sg-body .sg-page-title{
 	color: yellow;
 }
@@ -51,6 +44,7 @@ h1,h2{
 	font-family: sans-serif;
 	font-style: italic;
   padding: 10px 10px 10px 10px;
+  color: white;
 }
 a:link {
   color: red;
@@ -92,4 +86,12 @@ td{
 }
 .hidden{
   display: none;
+}
+[id=overlap]{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+ top: 0px;
+ left: 40%;
+ z-index: -1;
 }
