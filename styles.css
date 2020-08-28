@@ -1,0 +1,29 @@
+h1{
+	color: green;
+}
+p{
+	color: blue;
+}
+li{
+	color:red;
+	list-style-type: square; 
+}
+a{
+	color: yellow;
+}
+.special{
+	color: pink;
+	font-weight:  bold;
+}
+li em{
+	color: rebeccapurple;
+}
+h1 + p{
+	font-size: 80px;
+}
+a:link{
+	color: purple;
+}
+a:hover{
+	text-decoration:none; 
+}
