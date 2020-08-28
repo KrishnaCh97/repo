@@ -1,0 +1,35 @@
+body{
+	background-color: lightblue;
+	text-align: center;
+
+	
+}
+
+.shadowbox{
+	width: 15em;
+	
+  border: 1px solid #333;
+  padding-left: 50%;
+  box-shadow: 8px 8px 5px #444;
+  padding: 0 12px;
+  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc); 
+}
+
+a{
+	color: green
+}
+.container{
+	align-self: center;
+}
+.back{
+	background-image: url(download.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+img { 
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  right:0;
+  top:0;
+}
