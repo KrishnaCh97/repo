@@ -4,16 +4,20 @@ body{
 
 	
 }
-
-
-.shadowbox{
-	width: 15em;
-	
-  border: 1px solid #333;
-  padding-left: 50%;
-  box-shadow: 8px 8px 5px #444;
-  padding: 0 12px;
-  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc); 
+ul.a{
+  list-style-type: square;
+  list-style-position: inside;
+  color: brown
+}
+ul.b{
+  list-style-type: square;
+  list-style-position: inside;
+  color: purple
+}
+ul.c{
+  list-style-type: square;
+  list-style-position: inside;
+  color: orange
 }
 
 a{
@@ -21,6 +25,11 @@ a{
 }
 .container{
 	align-self: center;
+  border-top: solid;
+  border-bottom:  solid;
+  border-right:  solid;
+  border-left : solid;
+  border-size : 20%;
 }
 .back{
 	background-image: url(download.jpeg);
