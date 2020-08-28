@@ -90,3 +90,6 @@ td{
 [id=tit]{
   color: brown;
 }
+.hidden{
+  display: none;
+}
