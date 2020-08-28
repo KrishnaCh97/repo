@@ -82,4 +82,11 @@ table,th,td{
 td{
   text-align: center;
 }
-
+[class=bordered]{
+  color: green;
+  border-color: black;
+  background-color: black;
+}
+[id=tit]{
+  color: brown;
+}
