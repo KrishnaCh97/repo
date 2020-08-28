@@ -102,3 +102,19 @@ img{
   height: 200px;
   float: left;
 }
+.border1{
+  border: solid;
+  position: absolute;
+  top: 10%;
+  left: 35%;
+}
+table.border1{
+  width:30%;
+}
+
+.left{
+  text-align: left;
+}
+.right{
+  text-align: right;
+}
