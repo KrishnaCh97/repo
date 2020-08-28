@@ -29,7 +29,7 @@ a{
   border-bottom:  solid;
   border-right:  solid;
   border-left : solid;
-  border-size : 20%;
+  border-size : 20;
 }
 .back{
 	background-image: url(download.jpeg);
@@ -42,7 +42,7 @@ img {
   position: absolute;
   right:0;
   top:0;
-  border:solid;
+  border-style: solid;
 }
 .sg-body .sg-page-title{
 	color: yellow;
@@ -66,3 +66,19 @@ a:hover {
 a:active {
   color: blue;
 }
+table.bordered{
+outline-style: solid;
+outline-width: thick;
+margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 5%;
+}
+table,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td{
+  text-align: center;
+}
+
