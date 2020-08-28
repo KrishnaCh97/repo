@@ -42,6 +42,7 @@ img {
   position: absolute;
   right:0;
   top:0;
+  border:solid;
 }
 .sg-body .sg-page-title{
 	color: yellow;
