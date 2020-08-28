@@ -5,6 +5,7 @@ body{
 	
 }
 
+
 .shadowbox{
 	width: 15em;
 	
@@ -32,4 +33,11 @@ img {
   position: absolute;
   right:0;
   top:0;
+}
+.sg-body .sg-page-title{
+	color: yellow;
+}
+h1,h2{
+	font-family: sans-serif;
+	font-style: italic;
 }
